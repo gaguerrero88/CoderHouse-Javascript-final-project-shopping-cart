@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fixed {
+  position: fixed;
+  z-index: 400;
+  width: 100%;
+}
+
+.header1 {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+.header2 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background: #f5edf0;
+}
+
+.subheader2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navlink {
+  margin-top: 32px;
+  display: flex;
+  margin-left: 100px;
+  text-align: center;
+  justify-content: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  margin-right: 80px;
+}
+
+.nav-link:hover {
+  opacity: 0.5;
+}
+
+#nombreempresa {
+  top: 7%;
+}
+
+#buscar {
+  top: 8.5%;
+  right: 85%;
+  color: black;
+  background: none;
+  border: none;
+}
+
+.cuenta {
+  top: 8.5%;
+  left: 85%;
+}
+
+.cuenta-link {
+  text-decoration: none;
+  color: black;
+  font-size: x-small;
+}
+
+.cuenta-link:hover {
+  opacity: 0.5;
+}
+
+.principal {
+  display: flex;
+  align-items: center;
+  padding-top: 150px;
+}
+
+#img-principal {
+  width: 500px;
+  margin: 30px 40px;
+}
+#titulo-principal {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  left: 45%;
+  top: 30%;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(81, 81, 81);
+  width: 50%;
+}
+
+.Zapatos {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border: red solid;
+}
+
+#Zapato1 {
+  display: block;
+  font-size: small;
+  border: red solid;
+}
+
+.fotozapato {
+  width: 250px;
+  height: 200px;
+  transition: all 0.5s;
+}
+
+.fotozapato:hover {
+  transform: scale(1.1);
+}
+#tit-zapatos {
+  display: flex;
+  justify-content: center;
+}
+
+.texto-zapatos {
+  text-decoration: none;
+  color: rgb(98, 98, 98);
+  font-size: small;
+  font-style: italic;
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.agregarcarrito {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5edf0;
+  color: black;
+  font-weight: bold;
+}
+
+.verproductos {
+  width: max-content;
+  margin: 30px auto;
+  padding: 10px 10px;
+  background: #f5edf0;
+  color: black;
+}
+
+.precio {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: -8px;
+}
+
+#todosproductos {
+  width: fit-content;
+}
+
+.textotodoproductos {
+  text-decoration: none;
+  color: black;
+}

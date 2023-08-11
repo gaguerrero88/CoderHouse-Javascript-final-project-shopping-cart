@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.fixed {
+  position: fixed;
+  z-index: 400;
+  width: 100%;
+}
+
+.header1 {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  font-family: "Muli", sans-serif;
+}
+.header2 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background: #f5edf0;
+}
+
+.subheader2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nombreempresa {
+  top: 7%;
+}

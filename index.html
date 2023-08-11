@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Segunda Oportunidad</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script
+      src="https://kit.fontawesome.com/13a28bae08.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Roboto:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="fixed">
+      <header class="header1">
+        <h6>¡Envío gratis a todo el país en compras mayores a $15000!</h6>
+      </header>
+      <header class="header2">
+        <div class="subheader2">
+          <input type="text" placeholder="Buscar" id="buscar" />
+          <h1 id="nombreempresa">SEGUNDA OPORTUNIDAD</h1>
+          <nav class="cuenta">
+            <a href="#" class="cuenta-link"> CREAR CUENTA</a>
+            <a href="#" class="cuenta-link">INCIAR SESIÓN</a>
+            <a href="#"
+              ><i class="fa-solid fa-cart-shopping" style="color: #000000"
+                ><div class="cart-icon">
+                  <span class="cart-count"></span>
+                </div> </i
+            ></a>
+          </nav>
+        </div>
+        <nav class="navlink">
+          <a href="#" class="nav-link"> Inicio</a>
+          <a href="#" class="nav-link">Tienda</a
+          ><a href="#" class="nav-link">Nosotros</a>
+          <a href="#" class="nav-link">Contacto</a>
+        </nav>
+      </header>
+    </div>
+    <div class="principal">
+      <img
+        src="/Imagenes/Principal 3.jpeg"
+        alt="Imagen principal"
+        id="img-principal"
+      />
+      <div class="ordentitulos">
+        <img
+          src="./Imagenes/Ropa Reciclada.jpg"
+          alt="Imagen principal"
+          id="img-secundaria"
+        />
+        <h1 id="titulo-principal">
+          ¡DALE UNA SEGUNDA OPORTUNIDAD A ESA ROPA QUE YA NO USAS!
+        </h1>
+        <h5 id="frasechic">"La moda nunca envejece, solo cambia de dueño"</h5>
+        <h5 id="frasechic2">
+          "Viste con estilo, cuida el planeta: elige ropa de segunda mano"
+        </h5>
+      </div>
+    </div>
+    <div id="navegadorropa">
+      <a href="#" class="nav-ropa" data-id="Todos"> Todos </a>
+      <a href="#" class="nav-ropa" data-id="Zapatos"> Zapatos</a>
+      <a href="#" class="nav-ropa" data-id="Camisas">Camisas</a
+      ><a href="#" class="nav-ropa" data-id="Pantalones">Pantalones</a>
+      <a href="#" class="nav-ropa" data-id="Remeras">Remeras</a>
+    </div>
+    <div class="Productos"></div>
+    <div id="carritoTotal">
+      <a href="#" id="vaciarcarrito" style="text-decoration: none"
+        >VACIAR CARRITO</a
+      >
+      <h3>Carrito de Compras</h3>
+      <h3 id="total"></h3>
+    </div>
+    <div id="verprodCarrito"></div>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="./JS/app.js"></script>
+  </body>
+</html>

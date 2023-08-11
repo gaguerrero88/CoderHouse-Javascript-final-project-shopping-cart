@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "categoria": "Zapatos",
+    "nombre": "Zapato paruolo",
+    "precio": 36500,
+    "imagen": "./Imagenes/Principal.jpg"
+  },
+  {
+    "id": 2,
+    "categoria": "Zapatos",
+    "nombre": "Zapato zara",
+    "precio": 28500,
+    "imagen": "./Imagenes/Zapatos1.jpg"
+  },
+  {
+    "id": 3,
+    "categoria": "Zapatos",
+    "nombre": "Zapato las pochis",
+    "precio": 19500,
+    "imagen": "./Imagenes/Zapatos2.jpg"
+  },
+  {
+    "id": 4,
+    "categoria": "Zapatos",
+    "nombre": "Zapato justina",
+    "precio": 12600,
+    "imagen": "./Imagenes/Zapatos3.jpg"
+  },
+  {
+    "id": 5,
+    "categoria": "Zapatos",
+    "nombre": "Zapato Ricky Sarkany",
+    "precio": 22000,
+    "imagen": "./Imagenes/Zapatos4.jpg"
+  },
+  {
+    "id": 6,
+    "categoria": "Camisas",
+    "nombre": "Camisa Zara",
+    "precio": 56200,
+    "imagen": "./Imagenes/Camisa1.jpg"
+  },
+  {
+    "id": 7,
+    "categoria": "Camisas",
+    "nombre": "Camisa Rapsodia",
+    "precio": 18500,
+    "imagen": "./Imagenes/Camisa2.jpg"
+  },
+  {
+    "id": 8,
+    "categoria": "Camisas",
+    "nombre": "Camisa Kosiuko",
+    "precio": 16500,
+    "imagen": "./Imagenes/Camisa3.jpg"
+  },
+  {
+    "id": 9,
+    "categoria": "Camisas",
+    "nombre": "Camisa Wanama",
+    "precio": 15000,
+    "imagen": "./Imagenes/Camisa4.jpg"
+  },
+  {
+    "id": 10,
+    "categoria": "Camisas",
+    "nombre": "Camisa Tommy",
+    "precio": 1900,
+    "imagen": "./Imagenes/Camisa5.jpg"
+  },
+  {
+    "id": 11,
+    "categoria": "Pantalones",
+    "nombre": "Jean Rapsodia",
+    "precio": 26500,
+    "imagen": "./Imagenes/Jean1.jpg"
+  },
+  {
+    "id": 12,
+    "categoria": "Pantalones",
+    "nombre": "Jean Zara",
+    "precio": 28500,
+    "imagen": "./Imagenes/Jean2.jpg"
+  },
+  {
+    "id": 13,
+    "categoria": "Pantalones",
+    "nombre": "Jean Tommy",
+    "precio": 39500,
+    "imagen": "./Imagenes/Jean3.jpg"
+  },
+  {
+    "id": 14,
+    "categoria": "Pantalones",
+    "nombre": "Jean Kosiuko",
+    "precio": 45000,
+    "imagen": "./Imagenes/Jean4.jpg"
+  },
+  {
+    "id": 15,
+    "categoria": "Pantalones",
+    "nombre": "Jean Jazmin Chebar",
+    "precio": 30000,
+    "imagen": "./Imagenes/Jean5.jpg"
+  },
+  {
+    "id": 16,
+    "categoria": "Remeras",
+    "nombre": "Remera Justina",
+    "precio": 6500,
+    "imagen": "./Imagenes/Remera1.jpg"
+  },
+  {
+    "id": 17,
+    "categoria": "Remeras",
+    "nombre": "Remera Zara",
+    "precio": 8500,
+    "imagen": "./Imagenes/Remera2.jpg"
+  },
+  {
+    "id": 18,
+    "categoria": "Remeras",
+    "nombre": "Remera Gap",
+    "precio": 9500,
+    "imagen": "./Imagenes/Remera3.jpg"
+  },
+  {
+    "id": 19,
+    "categoria": "Remeras",
+    "nombre": "Remera Tommy",
+    "precio": 5000,
+    "imagen": "./Imagenes/Remera4.jpg"
+  },
+  {
+    "id": 20,
+    "categoria": "Remeras",
+    "nombre": "Remera Kosiuko",
+    "precio": 3500,
+    "imagen": "./Imagenes/Remera5.jpg"
+  }
+]
